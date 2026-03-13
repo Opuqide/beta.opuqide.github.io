@@ -57,7 +57,7 @@
       </div>
 
       <div class="box-container">
-//        <h1 class="title emerald-text"><i class="emoji aalexnoted"></i> Projects:</h1>
+        <h1 class="title emerald-text"><i class="emoji aalexnoted"></i> Projects:</h1>
         <div class="info-container">
 
           <div class="flex-grid">
