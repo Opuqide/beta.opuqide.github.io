@@ -49,7 +49,7 @@
     <section class="container" id="information">
 
       <div class="box-container">
-        <h1 class="title emerald-text"><i class="emoji alexcoffee"></i> Information:</h1>
+        <h1 class="title emerald-text"><i class="emoji shedead"></i> Information:</h1>
         <div class="info-container"><p>
           uhhhhh hai my name is tyler or opuqide, and i do nothin but bullshit
           this aint done asshole
