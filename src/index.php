@@ -19,7 +19,7 @@
               <img
                 draggable="false"
                 class="image-title primary-bg"
-                src="/static/images/branding/Amy.png"
+                src="/static/images/Amy.png"
                 id="discord-avatar"
                 alt="Amy - OC"
               >
