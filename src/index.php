@@ -11,7 +11,7 @@
   </head>
   <body class="dark-theme github">
     <div class="fullscreen">
-      <div class="background" style="background-image: url('/static/images/background.jpg');"></div>
+      <div class="background" style="background-image: url('/static/images/KIBBY.jpeg');"></div>
       <div class="center-object">
         <div class="container">
           <section class="me unset">
@@ -19,9 +19,9 @@
               <img
                 draggable="false"
                 class="image-title primary-bg"
-                src="/static/images/branding/avatar.png"
+                src="/static/images/branding/Amy.png"
                 id="discord-avatar"
-                alt="bwa"
+                alt="Amy - OC"
               >
             </div>
             <div class="unset">
