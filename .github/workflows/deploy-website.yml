@@ -1,0 +1,34 @@
+name: Fetch, build and deploy
+on:
+  push:
+    branches:
+      - main  # Changed from master
+  workflow_dispatch: 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Granting necessary permissions for the deployment action
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Fetching branch
+        uses: actions/checkout@v4  # Upgraded from v2.3.1
+        with:
+          ref: main  # Changed from master
+
+      - name: Installing PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+
+      - name: Compile PHP files
+        run: make build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4  # Upgraded from v4.1.3
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
