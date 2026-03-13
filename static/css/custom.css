@@ -1,13 +1,13 @@
 /* Runescape font */
 @font-face {
-  font-family: "runescape";
-  src: url("/static/fonts/runescape.ttf") format("truetype");
+  font-family: "sfpro";
+  src: url("/static/fonts/SFPro_Display_Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 .runescape {
-  font-family: "runescape";
+  font-family: "sfpro";
   color: #efff00;
 }
 
