@@ -6,7 +6,7 @@
 
 <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<meta name="theme-color" content="#14bae4"/>
+<meta name="theme-color" content="#ff033e"/>
 <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"></link>
 <meta property="og:image" content="/static/images/Amy.png" />
 
@@ -16,7 +16,7 @@
 
 <meta name="revisit-after" content="2 days"/>
 <meta name="keywords" content="<?php echo $keywords ?? "Opuqide, Twitter, Developer, Github"; ?>"/>
-<meta property="og:locale" content="en_GB"/>
+<meta property="og:locale" content="en_US"/>
 <link rel="canonical" href="<?php echo "{$URL}{$path}"; ?>" />
 <meta property="og:url" content="<?php echo "{$URL}{$path}"; ?>" />
 <meta property="og:site_name" content="Opuqide"/>
